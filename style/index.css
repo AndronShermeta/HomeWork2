@@ -1,0 +1,76 @@
+html{
+    margin: 0;
+    
+}
+img{
+    max-width: 1000px;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: 156.5%;
+    margin: 0;
+    width: 100%;
+    background-position: left -212px top -0.5px;
+    background-image: url(../images/background.png);
+}
+header{
+    
+}
+nav{
+    padding: 30px 15px 30px;
+    height: 40px;
+    width: 77%;
+    margin: auto;
+    
+}
+.logoblock{
+    display: inline-block;
+    
+}
+.logo{
+    width: 97px;
+    display: inline-block;
+    max-height: 40px;
+}
+nav>div>ul{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: right;
+    
+
+}
+nav>div>ul>li{
+    display: inline-block;
+    margin: 2px 15.7px 0px;
+    vertical-align: middle;
+}
+nav>div>ul>li:last-of-type{
+    margin-right: 0px;
+    margin-top: 4px;
+}
+
+nav>div>ul>li>span>a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color:#222;
+    text-decoration: none; 
+}
+nav>div>ul>li>span>a:hover{
+    color:#f6c43d ;
+    border-bottom: 2px solid #f6c43d ;
+    padding-bottom: 10px;
+
+}
+
+.social-networks{
+    display: inline-block;
+}
+.social-networks>img{
+    width: 30px;
+    margin-left: 5px;
+}
+main{
+    margin-top: 1000px;
+}
