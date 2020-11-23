@@ -74,3 +74,50 @@ nav>div>ul>li>span>a:hover{
 main{
     margin-top: 1000px;
 }
+.modal-body{
+    display: none;
+    width: 150px;
+    height: 175px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid #656565;
+    margin-left: -60px;
+}
+.modal-body h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+#num1{
+    margin: 10px auto 5px;
+    display: flex;
+    width: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+#operator_btns{
+    margin: auto auto 5px;
+    display: block;
+    width: 100px;
+}
+
+#num2{
+    margin: auto auto 5px;
+    display: flex;
+    width: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.calcimage{
+    width: 30px;
+}
+#result{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 300px;
+}
+.calcblock:hover .modal-body {
+    display: block;
+}
