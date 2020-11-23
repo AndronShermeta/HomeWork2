@@ -6,7 +6,8 @@
     <title>FastCar</title>
     <link href="style/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/logo.svg">
+    <script src="js/calc.js"></script>
+    
 </head>
 <body>
     <header>
@@ -27,6 +28,24 @@
                             <img src="images/insta.png" alt="Instagram">
                             <img src="images/youtube.png" alt="Youtube">
                         </div>
+                    </li>
+                    <li>
+                        <div class="calcblock" style="text-align: center;">
+                            <a href="#openModal"><img class="calcimage" src="images/calculator.svg" alt="calcIcon"></a>
+                            <div class="modal-body">
+                                <h2>Calculator</h2>
+                                <input id="num1" />
+                                    <div id="operator_btns">
+                                    <button id="plus" class="operator" onclick="plus()" >+</button>
+                                    <button id="minus" class="operator" onclick="minus()">-</button>
+                                    <button id="times" class="operator" onclick="multiplication()">x</button>
+                                    <button id="divide" class="operator" onclick="division()">:</button>
+                                    </div>
+                                    <input id="num2" />
+                                    <p id="result"></p>
+                                           
+                              </div>
+                          </div>
                     </li>
                 </ul>
                 
