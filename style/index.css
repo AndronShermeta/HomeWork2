@@ -346,3 +346,371 @@ main{
 .calcblock:hover .modal-body {
     display: block;
 }
+.responsibility-background{
+    background-image: url(../images/responsible-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+.responsibility{
+    display: flex;
+    width: 77%; 
+    margin: auto;
+    flex-wrap: wrap;
+}
+.responsibility-left-side-block{
+
+    display: block;
+    flex-basis:33.3%;
+    overflow-wrap: break-word;
+    vertical-align:baseline;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.responsibility-center-block{
+    width: 375px; 
+    display: flex;
+    overflow-wrap: break-word;
+    vertical-align:baseline;
+    flex-wrap: wrap;
+    margin: 0px 30px 0px;
+    
+}
+.responsibility-center-block img{ 
+    width: 100%;
+    
+}
+.responsibility-right-side-block{
+    display: block;
+    flex-basis:24%;
+    overflow-wrap: break-word;
+    vertical-align:baseline;
+    flex-wrap: wrap;
+    margin-left: 34px;
+}
+.responsibility-h1{
+    color: #f6c43d;
+    font-size: 14.5px;
+    line-height: 22.4px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-stretch: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 30px;
+}
+.responsibility-h2{
+    color: black;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 30px auto 10px;
+    line-height: 65px;
+    letter-spacing: normal;
+}
+.responsibility-h3{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px auto 20px;
+    letter-spacing: -0.324px;
+    line-height: 29.7px;
+}
+.responsibility-maintext{
+    color: rgb(137, 137, 137);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    line-height: 27.54px;
+    font-weight: 400;
+    margin: 30px auto 10px;
+}
+.responsibility-left-side-block ul li img{
+    width: 20px;
+    display: inline-block;
+    margin-bottom:-4px;
+}
+.responsibility-left-side-block ul li p{
+    color: rgb(137, 137, 137);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    line-height: 27.54px;
+    font-weight: 400;
+    display: inline-block;
+    margin: 10px 8px 5px;
+}
+.responsibility-left-side-block ul {
+    list-style: none;
+    padding: 0;
+}
+.btn-info{
+    margin-top:70px;
+    background-color: #1088e4;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding:15px  28px 15px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    color:  white;
+    max-width: 270px;
+    text-decoration: none;
+    border: none;
+}
+.btn-info:hover{
+    background-color:#f6c43d ;
+    transition-duration: 0.3s;
+}
+.responsibility-h4{
+    color:rgb(16, 136, 228);
+    letter-spacing: -1.8px;
+    font-weight: 700;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 90px;
+    margin: 25px auto 0px;
+    text-align: center;
+
+
+}
+.responsibility-h5{
+    color:black;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    margin: 25px auto 0px;
+    text-align: center;
+
+
+}
+.responsibility-h6{
+    color: rgb(137, 137, 137);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    line-height: 27.54px;
+    font-weight: 400;
+    text-align: center;
+    
+
+
+}
+.carofthemonth-background{
+    background-color:#1c1c1c ;
+    padding-bottom: 100px;
+}
+#carofthemonth{
+    
+    width: 77%;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+.carofthemonth-h1{
+    color: #f6c43d;
+    font-size: 14.5px;
+    line-height: 22.4px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-stretch: 100%;
+    height: auto;
+    margin: 0;
+    padding-top: 120px;
+    text-align: center;
+}
+.carofthemonth-h2{
+    color:white;
+    font-weight: 700;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 65px;
+    margin: 25px auto 0px;
+    text-align: center;
+}
+.carofthemonth-h3{
+    color: rgb(137, 137, 137);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 27.54px;
+    font-weight: 400;
+    margin: 30px auto 60px;
+    text-align: center;
+    max-width: 800px;
+    letter-spacing: -0.44px;
+    
+}
+.card-bestcar{
+    width: 33.1%;
+    display: inline-block;
+    margin: auto;
+}
+.card-bestcar img{
+    width: 93%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+.carofthemonth-h4{
+    font-family: "Barlow Condensed", sans-serif;
+    line-height: 36.4px;
+    letter-spacing: -0.56px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    margin: 15px auto 10px;
+    width: 93%;
+
+}
+.carofthemonth-h5{
+    width: 93%;
+    margin: auto;
+    color: rgb(137, 137, 137);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    line-height: 27.54px;
+    font-weight: 400;
+    margin: 0px auto 10px;
+}
+.form-background{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(../images/responsible-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.form-image{
+    background-image: url(../images/2012.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-position: left 0px top 175px;
+   
+}
+.form{
+    width: 34%;
+    margin-left:11.5%;
+    background-color: white;
+    padding:80px 30px 80px;
+    color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+#form{
+    width: 90%;
+    margin: auto;
+}
+.form-h1{
+    color: #f6c43d;
+    font-size: 14.5px;
+    line-height: 22.4px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-stretch: 100%;
+    height: auto;
+  
+    text-align: center;
+}
+.form-h2{
+    color: black;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 30px auto 10px;
+    line-height: 65px;
+    letter-spacing: normal;
+    text-align: center;
+}
+.form-h3{
+    color: rgb(137, 137, 137);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 27.54px;
+    font-weight: 400;
+    margin: 30px auto 60px;
+    text-align: center;
+    max-width: 80%;
+    letter-spacing: -0.44px;
+}
+
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form-control label {
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 0;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    color:  #959595
+  }
+  
+  .form-control input:focus {
+    outline: 0;
+    border-color: #777;
+  }
+  
+  .form-control.success input {
+    border-color: var(--success-color);
+  }
+  
+  .form-control.error input {
+    border-color: var(--error-color);
+  }
+  
+  .form-control small {
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+  }
+  
+  .form button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    letter-spacing: 0.15px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .form button:hover {
+    background-color: #f6c43d;
+    background-color:#f6c43d ;
+    transition-duration: 0.3s;
+
+  }
